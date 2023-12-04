@@ -9,6 +9,9 @@
     "test": "ng test",
     "serve:ssr:internationale": "node dist/internationale/server/server.mjs"
   },
+  "engines": {
+    "node": "18.x.x"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.0.0",
