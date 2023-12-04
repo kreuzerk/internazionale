@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './foo.component.scss'
 })
 export class FooComponent {
-
+  title = $localize`Real Madrid is the best team in the world`;
 }
